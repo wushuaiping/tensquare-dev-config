@@ -11,3 +11,18 @@ spring:
   jpa:
     show-sql: true
     database: mysql
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9999/eureka/
+  # 跨域访问
+  instance:
+    prefer-ip-address: true
+# jwt
+jwt:
+  config:
+    key: wocaonigedjnitamakendingbuzhidaoyanshishenmehahaha
+    ttl: 3600000
+spring:
+  rabbitmq:
+    host: 118.24.114.73

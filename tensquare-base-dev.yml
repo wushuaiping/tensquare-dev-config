@@ -11,6 +11,9 @@ spring:
   jpa:
     show-sql: true
     database: mysql
+  rabbitmq:
+    host: 118.24.114.73
+
 eureka:
   client:
     service-url:
@@ -23,6 +26,3 @@ jwt:
   config:
     key: wocaonigedjnitamakendingbuzhidaoyanshishenmehahaha
     ttl: 3600000
-spring:
-  rabbitmq:
-    host: 118.24.114.73

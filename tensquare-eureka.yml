@@ -6,3 +6,6 @@ eureka:
     fetch-registry: false
     service-url:
       defaultZone: http://localhost:${server.port}/eureka/
+spring:
+  rabbitmq:
+    host: 118.24.114.73

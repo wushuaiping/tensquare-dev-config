@@ -7,6 +7,8 @@ spring:
     elasticsearch:
       cluster-nodes: 118.24.114.73:9300
       cluster-name: elasticsearch-cluster1
+  rabbitmq:
+    host: 118.24.114.73
 eureka:
   client:
     service-url:

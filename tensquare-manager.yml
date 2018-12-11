@@ -23,6 +23,7 @@ zuul:
     connect-timeout-millis: 5000
     socket-timeout-millis: 5000
   prefix: /manager
+  ignoredPatterns: /**/admin/login/**/, /**/sms/**/  # 忽略admin的登录路径
   routes:
     # 配置base路由
     tensquare-base:

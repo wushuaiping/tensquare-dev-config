@@ -53,5 +53,5 @@ zuul:
       path: /spit/**
       serviceId: tensquare-spit
     tensquare-user:
-      path: /user/**
+      path: /admin/**
       serviceId: tensquare-user
